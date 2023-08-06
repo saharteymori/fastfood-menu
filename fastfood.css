@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+
+
+}
+.image{
+    background-image: url(hum4.webp);
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+
+
+}
+.box{
+    height: 120px;
+}
+
+@media screen and (max-width:800px) {
+    .box{
+        width: 100%;
+    }
+   
+
+    
+} 
+@media screen and (min-width:800px) {
+    .box{
+        width: 75%;
+    }
+   
+
+    
+} 
+.menu{
+    width: 85%;
+    margin: auto;
+}
+.feane{
+    background-image:url(slide2.jpg);
+    background-size: cover;
+    background-position: center ;
+    height: 400px;
+}
+.r{
+    width: 8%;
+}
